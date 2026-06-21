@@ -1,24 +1,24 @@
 class XpozCli < Formula
   desc "Standalone CLI wrapper around the Xpoz Python SDK"
   homepage "https://www.xpoz.ai"
-  version "0.3.6"
+  version "0.3.7"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/XPOZpublic/xpoz-cli/releases/download/v0.3.6/xpoz-cli-macos-arm64"
-      sha256 "e8f490c08c2a342a81010d1e059c425853d7c0886780c59a39b7b2b64ad77f4c"
+      url "https://github.com/XPOZpublic/xpoz-cli/releases/download/v0.3.7/xpoz-cli-macos-arm64"
+      sha256 "49351ae7fff3d031fa52cd5ce911cff27e66018caed43caf819de58aa8215916"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/XPOZpublic/xpoz-cli/releases/download/v0.3.6/xpoz-cli-linux-amd64"
-      sha256 "be78c7b7ebc399a4a2553555c1cf80975464399e49a93cbdd73357fab65fb656"
+      url "https://github.com/XPOZpublic/xpoz-cli/releases/download/v0.3.7/xpoz-cli-linux-amd64"
+      sha256 "319748e8b91cff51ba4a1577eb0136943f55590c9601d783d0c5646c7ee836c6"
     end
     on_arm do
-      url "https://github.com/XPOZpublic/xpoz-cli/releases/download/v0.3.6/xpoz-cli-linux-arm64"
-      sha256 "004c773ae24099db2e16748c7bd1b50453b0064c3a13d5fec64570e7c7bd7ab5"
+      url "https://github.com/XPOZpublic/xpoz-cli/releases/download/v0.3.7/xpoz-cli-linux-arm64"
+      sha256 "239142da3fd3b95665173813d4bc10b23c445d699316bdd8418d98a91f9fa479"
     end
   end
 
